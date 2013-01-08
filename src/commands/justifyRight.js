@@ -1,6 +1,6 @@
 (function(wysihtml5) {
-  var CLASS_NAME  = "wysiwyg-text-align-right",
-      REG_EXP     = /wysiwyg-text-align-[0-9a-z]+/g;
+  var CLASS_NAME  = "text-align-right",
+      REG_EXP     = /text-align-[0-9a-z]+/g;
   
   wysihtml5.commands.justifyRight = {
     exec: function(composer, command) {

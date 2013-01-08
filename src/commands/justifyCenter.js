@@ -1,6 +1,6 @@
 (function(wysihtml5) {
-  var CLASS_NAME  = "wysiwyg-text-align-center",
-      REG_EXP     = /wysiwyg-text-align-[0-9a-z]+/g;
+  var CLASS_NAME  = "text-align-center",
+      REG_EXP     = /text-align-[0-9a-z]+/g;
   
   wysihtml5.commands.justifyCenter = {
     exec: function(composer, command) {

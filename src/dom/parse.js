@@ -437,8 +437,8 @@ wysihtml5.dom.parse = (function() {
   var addClassMethods = {
     align_img: (function() {
       var mapping = {
-        left:   "wysiwyg-float-left",
-        right:  "wysiwyg-float-right"
+        left:   "float-left",
+        right:  "float-right"
       };
       return function(attributeValue) {
         return mapping[String(attributeValue).toLowerCase()];
@@ -447,10 +447,10 @@ wysihtml5.dom.parse = (function() {
     
     align_text: (function() {
       var mapping = {
-        left:     "wysiwyg-text-align-left",
-        right:    "wysiwyg-text-align-right",
-        center:   "wysiwyg-text-align-center",
-        justify:  "wysiwyg-text-align-justify"
+        left:     "left",
+        right:    "right",
+        center:   "center",
+        justify:  "justify"
       };
       return function(attributeValue) {
         return mapping[String(attributeValue).toLowerCase()];
@@ -459,10 +459,10 @@ wysihtml5.dom.parse = (function() {
     
     clear_br: (function() {
       var mapping = {
-        left:   "wysiwyg-clear-left",
-        right:  "wysiwyg-clear-right",
-        both:   "wysiwyg-clear-both",
-        all:    "wysiwyg-clear-both"
+        left:   "clear-left",
+        right:  "clear-right",
+        both:   "clear-both",
+        all:    "clear-both"
       };
       return function(attributeValue) {
         return mapping[String(attributeValue).toLowerCase()];

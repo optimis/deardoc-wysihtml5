@@ -242,8 +242,8 @@ if (wysihtml5.browser.supported()) {
   test("Advanced tests for 'img' elements", function() {
     var rules = {
       classes: {
-        "wysiwyg-float-right":  1,
-        "wysiwyg-float-left":   1
+        "float-right":  1,
+        "float-left":   1
       },
       tags: {
         img: {
